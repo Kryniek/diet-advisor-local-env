@@ -1,0 +1,4 @@
+[submodule "diet-advisor-product-scraper"]
+	path = diet-advisor-product-scraper
+	url = https://github.com/Kryniek/diet-advisor-product-scraper
+	branch = main
