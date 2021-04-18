@@ -10,3 +10,8 @@ git submodule foreach 'git checkout main; git pull --all'
 ```
 docker-compose up -d
 ```
+
+# Add new submodule
+```
+git submodule add <REPOSITORY_URL>
+```

@@ -2,3 +2,11 @@
 	path = diet-advisor-product-scraper
 	url = https://github.com/Kryniek/diet-advisor-product-scraper
 	branch = main
+[submodule "diet-advisor-api"]
+	path = diet-advisor-api
+	url = https://github.com/Kryniek/diet-advisor-api
+	branch = main
+[submodule "diet-advisor-common"]
+	path = diet-advisor-common
+	url = https://github.com/Kryniek/diet-advisor-common
+	branch = main
