@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  dynamodb:
+    image: amazon/dynamodb-local
+    restart: always
+    ports:
+      - 8000:8000
+  dynamodb-admin:
+    image: aaronshaf/dynamodb-admin
+    restart: always
+    ports:
+      - 7999:8001
+    environment:
+      DYNAMO_ENDPOINT: http://host.docker.internal:8000
+      AWS_REGION: eu-west-1
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+    depends_on:
+      - dynamodb
