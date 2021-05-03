@@ -15,6 +15,9 @@ export AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY>
 ```
 docker compose up -d
 ```
+
+# Install software
+ - VNC Viewer
 # Add new submodule
 ```
 git submodule add <REPOSITORY_URL>
