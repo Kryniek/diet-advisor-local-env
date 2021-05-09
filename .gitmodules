@@ -10,3 +10,11 @@
 	path = diet-advisor-common
 	url = https://github.com/Kryniek/diet-advisor-common
 	branch = main
+[submodule "diet-advisor-recipe-scraper"]
+	path = diet-advisor-recipe-scraper
+	url = https://github.com/Kryniek/diet-advisor-recipe-scraper.git
+	branch = main
+[submodule "diet-advisor-data-initializer"]
+	path = diet-advisor-data-initializer
+	url = https://github.com/Kryniek/diet-advisor-data-initializer.git
+	branch = main
