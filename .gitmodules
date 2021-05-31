@@ -18,3 +18,7 @@
 	path = diet-advisor-data-initializer
 	url = https://github.com/Kryniek/diet-advisor-data-initializer.git
 	branch = main
+[submodule "diet-advisor-postman"]
+	path = diet-advisor-postman
+	url = https://github.com/Kryniek/diet-advisor-postman
+	branch = main
